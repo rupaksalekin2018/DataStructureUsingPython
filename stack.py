@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     def out(self):
         if(self.isEmpty() == False):
-            self.items.pop()
+            return self.items.pop()
         else:
             pass
 
