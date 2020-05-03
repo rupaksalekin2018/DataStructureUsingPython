@@ -1,3 +1,4 @@
+"""Kinda Better Version is Given Below"""
 class Stack(object):
     # to hold all the elements in the list
     # filo first-in-last-out
@@ -38,3 +39,42 @@ if __name__ == "__main__":
     print(stack.peek())
     # stack.pop()
     print(stack.isEmpty())
+    
+"""class Stack(object):
+    def __init__(self):
+        self.items = []
+
+    def isEmpty(self):
+        if self.items:
+            return False
+        else:
+            return True
+
+    def insert(self,element):
+        self.items.append(element)
+
+    def out(self):
+        if(self.isEmpty() == False):
+            self.items.pop()
+        else:
+            pass
+
+    def peek(self):
+        #returns the last element from the Stack
+        if self.isEmpty() == False:
+            return self.items[-1]
+        else:
+            pass
+
+    def allItems(self):
+        if self.isEmpty() == False:
+            return self.items
+        else:
+            pass
+if __name__ == "__main__":
+    stack = Stack()
+    stack.insert("hello")
+    print(stack.peek())
+    stack.out()
+    print(stack.isEmpty())
+"""
